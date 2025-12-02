@@ -3,6 +3,7 @@ package conditional_statement;
 import java.util.Scanner;
 
 public class print_Odd_Even {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
