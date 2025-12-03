@@ -2,9 +2,9 @@ package loops;
 
 public class while_loop {
     public static void main(String[] args) {
-        int count = 1;
+        int count = 0;
         while (count <= 100) {
-            System.out.println("hello world"+" "+ count);
+            System.out.println("hello world"+ count);
             count++;
         }
     }
