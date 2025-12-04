@@ -7,6 +7,7 @@ public class pattern1 {
             for (int j = 1; j < 5 - i; j++) {
                 System.out.print(" ");
             }
+            // Stars
             for (int k = 1; k <= i; k++) {
                 System.out.print("*");
 
