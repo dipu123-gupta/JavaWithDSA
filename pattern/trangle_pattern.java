@@ -16,10 +16,11 @@ public class trangle_pattern {
 
             // Inner loop for printing stars in each row
             for (int j = 1; j <= i; j++) {
-                
+
                 // Print star followed by a space
                 System.out.print("*" + " ");
             }
+            // Move to the next line after each row
             System.out.println();
         }
     }
