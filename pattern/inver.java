@@ -2,7 +2,7 @@ package pattern;
 
 import java.util.Scanner;
 
-public class inverted_trangle_pattern {
+public class inver {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
