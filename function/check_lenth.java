@@ -14,9 +14,7 @@ public class check_lenth {
         // int length = String.valueOf(inputNumber).length();
         while (inputNumber != 0) {
             inputNumber = inputNumber / 10;
-
             length++;
-
         }
         System.out.println("The length of the number is: " + length);
 
