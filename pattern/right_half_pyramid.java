@@ -81,18 +81,18 @@ public class right_half_pyramid {
         // e e e e e
 
         // for (int i = 1; i <= num; i++) {
-        //     for (int j = i; j <= num; j++) {
-        //         System.out.print("* ");
-        //     }
-        //     System.out.println();
+        // for (int j = i; j <= num; j++) {
+        // System.out.print("* ");
+        // }
+        // System.out.println();
         // }
 
-        for (int i = 1; i <=num; i++) {
-            for (int j = 1; j <=num-(i-1); j++) {
-                System.out.print(j);
-            }
-            System.out.println();
-        }
+        // for (int i = 1; i <=num; i++) {
+        // for (int j = 1; j <=num-(i-1); j++) {
+        // System.out.print(j);
+        // }
+        // System.out.println();
+        // }
 
         // output
         // * * * * * *
@@ -100,6 +100,20 @@ public class right_half_pyramid {
         // * * * *
         // * * *
         // * *
-        // *
+        // */
+
+        for (int i = 1; i <= num; i++) {
+            for (int j = num; j < num + i; j++) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+
+        // output
+        // 5
+        // 5 6
+        // 5 6 7
+        // 5 6 7 8
+        // 5 6 7 8 9
     }
 }
