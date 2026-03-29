@@ -29,3 +29,6 @@ public class ReverseArray {
 // Output will be:
 // Original array: 1 4 9 3 5 10
 // Reversed array: 10 5 3 9 4 1
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
